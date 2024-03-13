@@ -1,7 +1,7 @@
 
-      export const marketContractAddress = "0x71Ac37334199bE2C10a6e74EF0636979692163d4"
-      export const artistsContractAddress = "0x473fB8B9ay6hB63784837b94f90e2B9a6b9p90b3"
-      export const nftContractAddress = "0xa73fB8B9a88fB63784837b94f90e2B9a6b9734C1"
-      export const mockDAIAddress = "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063"
-      export const ownerAddress = "0xd4eFCA925505121D9039BE8DCFafaC862254A8be"
-      export const networkDeployedTo = "1337"
+      export const marketContractAddress = "0xa43657aC09932f97169e2235B332B650741b4A7C"
+      export const nftContractAddress = "0x2BAa153BDB8FD8cB262e6581fA88dd76DFc8c2e9"
+      export const artistsContractAddress = "0xAd99Cd5E3ef152F179C0483E2E4a93F280d09C7B"
+      export const networkDeployedTo = "21133"
+      // AAH AUSD
+      export const mockDAIAddress = "0x3adBF8fa04c21517D8E50908305D0413D2A44300"

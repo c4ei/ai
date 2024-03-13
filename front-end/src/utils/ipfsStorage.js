@@ -1,6 +1,6 @@
 import { Web3Storage } from "web3.storage";
 
-const web3storage_key = "";
+const web3storage_key = "z6MkrQVwKV4PN7MSFSyKvB74a5itVh7x2GiPSNk8rUaJfRv8";
 
 export const IPFS_GATEWAY = "https://ipfs.io/ipfs/";
 

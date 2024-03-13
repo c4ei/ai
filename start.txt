@@ -1,0 +1,43 @@
+cd /home/dev/www/nft.c4ex.net/smart_contracts
+yarn deploy-aah
+
+
+/home/dev/www/nft.c4ex.net/front-end/src/utils/networksMap.json
+"21004": "C4EI Mainnet",
+"21133": "AAH Mainnet",
+/home/dev/www/nft.c4ex.net/front-end/src/utils/tokens-utils.js
+
+#######################################################################################
+yarn deploy --network aah
+yarn run v1.22.19
+$ npx hardhat run scripts/deploy-all.js --network aah
+AART Artists contract deployed at:  0xcd3e4545Acbe0B7D93D0b89767B1CAcAA3beb8b7
+AART NFT contract deployed at:  0x91c34a7780357af510C6834A7496bc9DdBB04A50
+AART market ontract deployed at:  0x77EC132661dad4Fa1Df03cA36a0a80817fa545cE
+Network deployed to :  aah
+#######################################################################################
+dev@dev-virtual-machine:~/www/nft.c4ex.net/smart_contracts$ yarn deploy
+yarn run v1.22.19
+$ npx hardhat run scripts/deploy-all.js
+AART Artists contract deployed at:  0x5FbDB2315678afecb367f032d93F642f64180aa3
+AART NFT contract deployed at:  0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512
+AART market ontract deployed at:  0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+Network deployed to :  hardhat
+Done in 2.26s.
+#######################################################################################
+yarn deploy --network c4ei
+AART Artists contract deployed at:  0xf80C57516aE65485BdE6fAF4561813008cb3961F
+AART NFT contract deployed at:  0x7DD881F99DCC37bfCa704fAda6CB2fA05b9eb088
+AART market ontract deployed at:  0xe9B8F9f95862F0C93Dc627651CE138ABA722e512
+Network deployed to :  c4ei
+#######################################################################################
+
+
+cd front-end
+yarn
+yarn start
+
+
+
+
+ncu -u

@@ -6,6 +6,38 @@ import images from "../assets/images";
 const MATIC = ethers.constants.AddressZero;
 
 const tokens = {
+  "AAH Mainnet": [
+    {
+      index: 0,
+      symbol: "AAH",
+      logo: images.aah,
+      address: MATIC,
+      decimals: 18,
+    },
+    {
+      index: 1,
+      symbol: "AUSD",
+      logo: images.ausd,
+      address: "0x3adBF8fa04c21517D8E50908305D0413D2A44300",
+      decimals: 18,
+    },
+  ],
+  "C4EI Mainnet": [
+    {
+      index: 0,
+      symbol: "C4EI",
+      logo: images.c4ei,
+      address: MATIC,
+      decimals: 18,
+    },
+    {
+      index: 1,
+      symbol: "USDT",
+      logo: images.usdtc4ei,
+      address: "0xf10e02ce41b28e52ad015eae3a83e040d4aee3a8",
+      decimals: 18,
+    },
+  ],
   "Polygon Mainnet": [
     {
       index: 0,

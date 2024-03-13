@@ -13,6 +13,10 @@ import dai from "./dai.png";
 import usdt from "./usdt.png";
 import usdc from "./usdc.png";
 import matic from "./matic.png";
+import aah from "./aah.png";
+import ausd from "./ausd.png";
+import c4ei from "./c4ei.png";
+import usdtc4ei from "./usdtc4ei.png";
 import profile_banner from "./profile_banner.png";
 
 export default {
@@ -31,5 +35,9 @@ export default {
   usdc,
   usdt,
   matic,
+  aah,
+  ausd,
+  c4ei,
+  usdtc4ei,
   profile_banner,
 };

@@ -6,5 +6,7 @@
     "1337": "Ganache",
     "80001": "Polygon Testnet",
     "137": "Polygon Mainnet",
+    "21004": "C4EI Mainnet",
+    "21133": "AAH Mainnet",
     "56": "BSC"
 }
