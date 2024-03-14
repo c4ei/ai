@@ -52,10 +52,4 @@ ncu -u
 
 
  @example
- * ```js
- * import { Web3Storage, File } from 'web3.storage'
- * const client = new Web3Storage({ token: API_TOKEN })
- *
- * const cid = await client.put([new File(['hello world'], 'hello.txt', { type: 'text/plain' })])
- * ```
- 
+https://nft.storage/files/

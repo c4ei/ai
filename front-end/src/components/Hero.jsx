@@ -35,7 +35,7 @@ function Hero() {
                           .pauseFor(2000)
                           .deleteAll()
                           .typeString(
-                            `<span class='txt-rotate'>Buy, Sell & trader</span>`
+                            `<span class='txt-rotate'>민트시 10AAH 가 필요합니다. Mint requires 10 AAH</span>`
                           )
                           .pauseFor(2000)
                           .deleteAll()
@@ -47,7 +47,7 @@ function Hero() {
                           .start();
                       }}
                     />
-                    AI generated Art
+                    NFT AAH AUCTION {/* AI generated Art */}
                   </h1>
                   <p>
                     Discover, Collect, and Trade AI-powered NFTs on our
@@ -73,7 +73,7 @@ function Hero() {
                   }
                 >
                   <img
-                    src="https://images.cointelegraph.com/images/1434_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjEtMDYvNGE4NmNmOWQtODM2Mi00YmVhLThiMzctZDEyODAxNjUxZTE1LmpwZWc=.jpg"
+                    src="https://i.ibb.co/ZhncXDb/20160815-171159-Photoroom-png-Photoroom.png"
                     alt="NFT Art"
                   />
                 </div>
