@@ -3,6 +3,9 @@
 /smart_contracts/node_modules
 /front-end/node_modules
 
+*.zip
+*.txt
+
 # dependencies
 /node_modules
 /.pnp

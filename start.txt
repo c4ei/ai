@@ -1,3 +1,8 @@
+########################################
+cd /home/dev/www/nft.c4ex.net/front-end
+yarn start
+########################################
+
 cd /home/dev/www/nft.c4ex.net/smart_contracts
 yarn deploy-aah
 
@@ -41,3 +46,16 @@ yarn start
 
 
 ncu -u
+
+
+
+
+
+ @example
+ * ```js
+ * import { Web3Storage, File } from 'web3.storage'
+ * const client = new Web3Storage({ token: API_TOKEN })
+ *
+ * const cid = await client.put([new File(['hello world'], 'hello.txt', { type: 'text/plain' })])
+ * ```
+ 
