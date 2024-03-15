@@ -2,6 +2,7 @@
 
 /smart_contracts/node_modules
 /front-end/node_modules
+/front-end/build
 
 *.zip
 *.txt
