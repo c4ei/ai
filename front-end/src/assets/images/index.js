@@ -1,6 +1,11 @@
 import logo from "./logo.png";
 import banner from "./banner-img.png";
 import user from "./profile.jpg";
+import user1 from "./man1.jpg";
+import user2 from "./man2.jpg";
+import user3 from "./man6.jpg";
+import user4 from "./man4.jpg";
+import user5 from "./man5.jpg";
 import service1 from "./service-1.png";
 import service2 from "./service-2.png";
 import service3 from "./service-3.png";
@@ -23,6 +28,11 @@ export default {
   logo,
   banner,
   user,
+  user1,
+  user2,
+  user3,
+  user4,
+  user5,
   service1,
   service2,
   service3,

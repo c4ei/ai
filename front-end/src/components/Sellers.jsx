@@ -59,10 +59,10 @@ const Sellers = () => {
                 <img src={images.user} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
-                <p className="slider-card-name">James Bond</p>
+                <p className="slider-card-name">James Baker</p>
               </Link>
               <p className="slider-card-price">
-                5.250 <span>ETH</span>
+                5250 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
@@ -70,13 +70,13 @@ const Sellers = () => {
             <div className="slider-card">
               <p className="slider-card-number">2</p>
               <div className="slider-img">
-                <img src={images.user} alt="" />
+                <img src={images.user1} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
                 <p className="slider-card-name">Rian Leon</p>
               </Link>
               <p className="slider-card-price">
-                4.932 <span>ETH</span>
+                4932 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
@@ -84,13 +84,13 @@ const Sellers = () => {
             <div className="slider-card">
               <p className="slider-card-number">3</p>
               <div className="slider-img">
-                <img src={images.user} alt="" />
+                <img src={images.user2} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
                 <p className="slider-card-name">Lady Young</p>
               </Link>
               <p className="slider-card-price">
-                4.620 <span>ETH</span>
+                4620 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
@@ -98,13 +98,13 @@ const Sellers = () => {
             <div className="slider-card">
               <p className="slider-card-number">4</p>
               <div className="slider-img">
-                <img src={images.user} alt="" />
+                <img src={images.user3} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
                 <p className="slider-card-name">Black Glass</p>
               </Link>
               <p className="slider-card-price">
-                4.125 <span>ETH</span>
+                4125 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
@@ -112,13 +112,13 @@ const Sellers = () => {
             <div className="slider-card">
               <p className="slider-card-number">5</p>
               <div className="slider-img">
-                <img src={images.user} alt="" />
+                <img src={images.user4} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
                 <p className="slider-card-name">Budhiman</p>
               </Link>
               <p className="slider-card-price">
-                3.921 <span>ETH</span>
+                3921 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
@@ -126,13 +126,13 @@ const Sellers = () => {
             <div className="slider-card">
               <p className="slider-card-number">6</p>
               <div className="slider-img">
-                <img src={images.user} alt="" />
+                <img src={images.user5} alt="" />
               </div>
               <Link to={`/profile/Rian`}>
                 <p className="slider-card-name">Alex</p>
               </Link>
               <p className="slider-card-price">
-                3.548 <span>ETH</span>
+                3548 <span>AAH</span>
               </p>
             </div>
           </SwiperSlide>
