@@ -13,12 +13,12 @@ function Footer() {
             <img src={images.logo} width={100} />
           </div>
           <div>
-            <h3>Feel Free To Contact Me.</h3>
+            <h3><a href="https://c4ei.net" target="_blank" rel="noreferrer">AAH Info</a></h3>
           </div>
         </div>
         <div className="footer-links_div">
-          <h4>AART</h4>
-          <p>Explore</p>
+          <h4>AAH NFT</h4>
+          <p><a href="https://exp.c4ex.net" target="_blank" rel="noreferrer">Explore</a></p>
           <p>How it Works</p>
           <p>Roadmap</p>
           <p>Contact Us</p>
@@ -33,16 +33,16 @@ function Footer() {
       </div>
       <div className="footer-copyright">
         <div className="footer-copyright-text">
-          <p> © {new Date().getFullYear()} AART, Inc. All Rights Reserved</p>
+          <p> © {new Date().getFullYear()} AAH NFT, Inc. All Rights Reserved</p>
         </div>
         <div className="footer-copyright-icons">
-          <a href="https://github.com/kaymen99">
+          <a href="https://github.com/c4ei" target="_blank" rel="noreferrer">
             <AiOutlineGithub size={25} color="white" className="footer-icon" />
           </a>
-          <a href="https://github.com/kaymen99">
+          <a href="https://twitter.com/c4ei_net/" target="_blank" rel="noreferrer">
             <AiOutlineTwitter size={25} color="white" className="footer-icon" />
           </a>
-          <a href="https://github.com/kaymen99">
+          <a href="https://discord.com/invite/xaScCCFV" target="_blank" rel="noreferrer">
             <RiDiscordFill size={25} color="white" className="footer-icon" />
           </a>
         </div>

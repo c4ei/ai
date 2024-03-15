@@ -20,7 +20,7 @@ function Hero() {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <span className="tagline">Welcome to AART</span>
+                  <span className="tagline">Welcome to AAH NFT</span>
                   <h1>
                     <Typewriter
                       options={{

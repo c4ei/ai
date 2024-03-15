@@ -17,7 +17,7 @@ const Listing = ({ items }) => {
               </div>
               <div className="item-card-bottom">
                 <p>
-                  {item.price} <span>ETH</span>
+                  {item.price} <span>AAH</span>
                 </p>
                 <p>
                   {" "}
