@@ -1,6 +1,6 @@
 import { NFTStorage } from 'nft.storage';
 
-const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDk0YzAyNTBhMDY1OTI2YzU1YjNkOEQyNDg3NEJiMzREMzRDN2U2Q0EiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTcxMDQxNjc1MTAwMSwibmFtZSI6Im5mdC5jNGV4Lm5ldCJ9.wvCdWQsk0VIviWIo6ePD1EWjbh0V8h4w3mZLCyRehVM';
+const token = '';
 
 export const IPFS_GATEWAY = "https://nftstorage.link/ipfs/"; //Gateway from nft.storage
 
