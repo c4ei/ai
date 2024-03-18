@@ -1,5 +1,6 @@
 {
-  "name": "aart-nft-marketplace",
+  "name": "aah-nft",
+  "homepage": "https://nft.c4ex.net",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,7 +44,8 @@
     "web3modal": "^1.9.7"
   },
   "scripts": {
-    "start": "export PORT=3013 && react-scripts start",
+    "start": "node server.js",
+    "startr": "export PORT=3014 && react-scripts start",
     "start2": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
