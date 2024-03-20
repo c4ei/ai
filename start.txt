@@ -1,11 +1,25 @@
 ########################################
 cd /home/dev/www/nft.c4ex.net/front-end
-yarn start
+yarn startr
 ########################################
 
 cd /home/dev/www/nft.c4ex.net/smart_contracts
+yarn deploy-ganache
 yarn deploy-aah
+yarn deploy-c4ei
 
+
+#######################################################################################
+AART Artists contract deployed at: 0xe66cd3F51408F6167321Bce0769263478BAD6800
+AART NFT contract deployed at: 0x98cf6d65102A3F85EAe07aaBD5c3a52C6aA294Be
+AART market ontract deployed at: 0x178c3381Ad558581CE686090acE41e98395376df
+Network deployed to : aah
+#######################################################################################
+AART Artists contract deployed at:      0xAd99Cd5E3ef152F179C0483E2E4a93F280d09C7B
+AART NFT contract deployed at:          0x2BAa153BDB8FD8cB262e6581fA88dd76DFc8c2e9
+AART market ontract deployed at:        0xa43657aC09932f97169e2235B332B650741b4A7C
+Network deployed to :    c4ei
+#######################################################################################
 
 /home/dev/www/nft.c4ex.net/front-end/src/utils/networksMap.json
 "21004": "C4EI Mainnet",
@@ -64,3 +78,14 @@ AARTMarket.sol :
  AARTMarket 계약은 AART 생태계 내에서 시장 논리의 핵심을 형성합니다. 이는 일반 판매, 경매, 사용자가 컬렉션에 있는 발행된 NFT에 대해 제안을 할 수 있는 기능을 포함한 다양한 거래 유형을 촉진합니다.
  이 계약은 여러 ERC20 토큰을 지원하여 구매자와 판매자의 옵션을 확장하도록 설계되었습니다. 
  또한 AARTMarket 계약은 로열티 지불 기능을 구현하여 창작자가 각 판매에 대해 공정한 로열티를 받을 수 있도록 보장합니다.
+
+/collection
+/sales
+/auctions
+/nft-page/:id
+/sale-page/:id
+/auction-page/:id
+/create-nft
+/creator-profile/:creator
+/register
+/dashboard

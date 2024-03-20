@@ -128,7 +128,7 @@ const RegisterPage = () => {
       }
     } else {
       window.alert(
-        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network`
+        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network-131`
       );
     }
   };
@@ -206,7 +206,7 @@ const RegisterPage = () => {
       }
     } else {
       window.alert(
-        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network`
+        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network-209`
       );
     }
   };
@@ -240,7 +240,7 @@ const RegisterPage = () => {
       }
     } else {
       window.alert(
-        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network`
+        `Please connect with Metamask to ${networksMap[networkDeployedTo]} network-243`
       );
     }
   };

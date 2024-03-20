@@ -17,6 +17,7 @@ const Account = ({ disconnect }) => {
         <div className="account-info">
           <p>{wallet.username}</p>
           <small>{wallet.account.slice(0, 15)}...</small>
+          <h6>{wallet.network}</h6>
         </div>
       </div>
       <div className="account-menu">

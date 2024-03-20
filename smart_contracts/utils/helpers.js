@@ -1,6 +1,6 @@
 const { ethers } = require("hardhat");
 
-const developmentChains = ["hardhat", "localhost", "ganache"];
+const developmentChains = ["hardhat", "localhost", "ganache", "aah"];
 
 function getAmountInWei(amount) {
   return ethers.parseEther(amount.toString(), "ether");

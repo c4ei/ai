@@ -8,6 +8,7 @@
     "deploy": "npx hardhat run scripts/deploy-all.js",
     "deploy-ganache": "npx hardhat run scripts/deploy-ganache.js --network ganache",
     "deploy-aah": "npx hardhat run scripts/deploy-ganache.js --network aah",
+    "deploy-c4ei": "npx hardhat run scripts/deploy-ganache.js --network c4ei",
     "compile": "npx hardhat compile",
     "test": "npx hardhat test",
     "coverage": "npx hardhat coverage --testfiles 'test/*.js'",

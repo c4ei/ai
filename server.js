@@ -15,6 +15,7 @@ app.get('/', function(req,resp){
   resp.sendFile( path.join(__dirname, 'front-end/build/index.html') )
 }) 
 
+app.use('*', express.static( path.join(__dirname, 'front-end/build') ))
 
 app.listen(3013, function () {
   console.log('listening on 3013')

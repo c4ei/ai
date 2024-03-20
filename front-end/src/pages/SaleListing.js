@@ -16,7 +16,17 @@ import images from "../assets/images";
 
 
 const SaleListing = () => {
-  const wallet = useSelector((state) => state.blockchain.value);
+
+  // let _wallet;
+  // try{
+  //   _wallet = useSelector((state) => state.blockchain.value);
+  // }catch(e){
+  //   _wallet = useSelector((state) => state.blockchain);
+  // }
+  // const wallet = _wallet;
+  // const wallet = useSelector((state) => state.blockchain.value); // org
+  const wallet = useSelector((state) => state.blockchain);
+
   const [salesList, setSalesList] = useState([]);
   const [displayed, setDisplayed] = useState({
     from: 0,

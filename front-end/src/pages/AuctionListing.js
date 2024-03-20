@@ -15,7 +15,8 @@ import {
 import networksMap from "../utils/networksMap.json";
 
 const AuctionListing = () => {
-  const wallet = useSelector((state) => state.blockchain.value);
+  // const wallet = useSelector((state) => state.blockchain.value);
+  const wallet = useSelector((state) => state.blockchain);
   const [auctionsList, setAuctionsList] = useState([]);
   const [displayed, setDisplayed] = useState({
     from: 0,

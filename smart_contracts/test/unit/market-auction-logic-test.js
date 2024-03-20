@@ -68,10 +68,10 @@ const mintFee = getAmountInWei(10);
         AuctionParam.directBuyPrice = getAmountInWei(100);
         AuctionParam.startPrice = getAmountInWei(10);
         AuctionParam.startTime = Math.floor(
-          new Date("2024.02.10").getTime() / 1000
+          new Date("2024.03.20").getTime() / 1000
         );
         AuctionParam.endTime = Math.floor(
-          new Date("2024.02.20").getTime() / 1000
+          new Date("2024.03.30").getTime() / 1000
         );
         // approve NFT to market contract
         await approveERC721(

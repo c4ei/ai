@@ -44,7 +44,7 @@ function Connect() {
   async function fetchAccountData() {
     let username, profileImg, registred;
     registred = false;
-    username = "All About Health";
+    username = "login first";
     profileImg = defaultProfileImg;
     if (typeof window.ethereum !== "undefined") {
       const connection = await web3Modal.connect();
@@ -56,7 +56,7 @@ function Connect() {
       const chainId = await provider.getNetwork();
       const account = await signer.getAddress();
       const balance = await signer.getBalance();
-      console.log(JSON.stringify(chainId)+" : chainId /" +account+" : account /" +balance+" : balance ");
+      // console.log(JSON.stringify(chainId)+" : chainId /" +account+" : account /" +balance+" : balance ");
 
       if (networks[String(chainId.chainId)] === networks[networkDeployedTo]) {
         const artists_contract = new ethers.Contract(
